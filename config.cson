@@ -1,0 +1,41 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db node_modules"
+    ]
+    projectHome: "/Users/pabloalonso/Code"
+    themes: [
+      "one-dark-ui"
+      "an-old-hope-syntax"
+    ]
+  "custom-title":
+    template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "103435f1-1803-3221-96c9-ce28aeab0831"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  linter: {}
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  "tool-bar": {}
+  welcome:
+    showOnStartup: false

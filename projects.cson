@@ -1,0 +1,10 @@
+graphqlrest:
+  title: "Graphql Rest"
+  paths: [
+    "/Users/pabloalonso/Code/Javascript/graphql-rest"
+  ]
+reactstarter:
+  title: "React Starter"
+  paths: [
+    "/Users/pabloalonso/Code/Neosavvy/react-starter"
+  ]
