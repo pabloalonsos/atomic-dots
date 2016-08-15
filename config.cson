@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "533f03ac-4cb0-4d86-8c2f-d6fa50d98886"
   core:
     customFileTypes:
       "source.ini": [
@@ -28,6 +31,8 @@
     template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   editor:
     invisibles: {}
+    softWrap: true
+    tabLength: 4
   "exception-reporting":
     userId: "103435f1-1803-3221-96c9-ce28aeab0831"
   "file-watcher":
@@ -36,6 +41,13 @@
   nuclide:
     "nuclide-home":
       showHome: false
+  racer: {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   "tool-bar": {}
   welcome:
     showOnStartup: false

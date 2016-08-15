@@ -8,3 +8,8 @@ reactstarter:
   paths: [
     "/Users/pabloalonso/Code/Neosavvy/react-starter"
   ]
+btsync:
+  title: "BTSync"
+  paths: [
+    "/Users/pabloalonso/BTSync"
+  ]
