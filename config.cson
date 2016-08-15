@@ -2,6 +2,9 @@
   "atom-beautify":
     general:
       _analyticsUserId: "533f03ac-4cb0-4d86-8c2f-d6fa50d98886"
+    js:
+      beautify_on_save: true
+    rust: {}
   core:
     customFileTypes:
       "source.ini": [
@@ -14,6 +17,9 @@
       "source.python": [
         "BUCK"
       ]
+    disabledPackages: [
+      "atom-beautify"
+    ]
     ignoredNames: [
       ".git"
       ".hg"
